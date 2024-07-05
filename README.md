@@ -9,9 +9,8 @@ Implements game-added markers for scores and quick retries on the recording time
 
 > At the time of writing, [Steam Game Recording](https://store.steampowered.com/gamerecording) is currently in beta. If you do not see the recording interface while in-game, make sure you have opted into the beta client via **Settings > Interface > Client Beta Participation**
 
-- Extract a [DLL auto-loader library](https://github.com/adamaq01/d3d9_chainload/releases/download/0.1/d3d9_chainload-0.1.zip) to the `game/app` directory
-- Extract all files from any [pre-built release](https://github.com/aixxe/infsteam/releases) to the game directory
-- Add new line `infsteam.dll` to the `chainload.txt` file and save changes
+- Extract all files from any [pre-built release](https://github.com/aixxe/infsteam/releases) to the `game/app` directory
+  - If you already have a `chainload.txt` file, add a new `infsteam.dll` line and save changes
 - With Steam open, launch the game normally from the e-amusement website
 
 Using the default AppID of [**480**](https://steamdb.info/app/480/), you will appear to be playing **Spacewar** within Steam
